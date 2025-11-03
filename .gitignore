@@ -1,0 +1,49 @@
+# Configuration敏感
+config/config.php
+config/database.php
+
+# Logs
+logs/*.log
+logs/*.txt
+
+# Fichiers temporaires
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+.atom/
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Database
+*.sql.bak
+*.dump
+
+# Node modules (si utilisés)
+/node_modules/
+
+# Composer
+/vendor/
+
+# Uploads (si le dossier existe)
+/uploads/
+/documents/
+
+# Cache
+/cache/
+/tmp/
+
+# Autres
+.env
+.env.local
+.env.production
+.composer.json.lock
